@@ -9,15 +9,62 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        
+           body {
+                color: rgb(255, 255, 0);
+                background-color: rgb(0,0,255)
+            }  
+            #color{
+                color: rgb(0,0,255);
+                background-color: rgb(255,255,0)   
+            }
+            .parts {
+                color: rgb(0,0,0);
+                background-color: rgb(255,255,255)
+            }
+            a {
+                color: rgb(255,255,0)
+            }
+            #font {    
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            #giant {
+                font-size: 50px ;
+            }
+        </style>
     </head>
     <body>
-        <div>TODO write content</div>
-        <h1>header<br></h1>
+        <h1 id="header">header<br></h1>
         <h2>Subheader<br></h2>
         <h3>subsubheader<br></h3>
         <h4>subsubsubheader<br></h4>
         <h5>subsubsubsubheader<br></h5>
         <h6>subsubsubsubsubheader<br></h6>
-        <p><strong>BOLD UPPERCASE</strong></p>
+        <p><strong>BOLD UPPERCASE</strong><br><i>italics lowercase<b><br>BOLD ITALICS UPPERCASE</b></i></p>
+        <ul><li>bullet</li><li>another bullet</li></ul>
+        <ol><li>one</li><li>two</li></ol>
+        <p id="color">now this is blue on yellow. </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/SMPTE_Color_Bars.svg/329px-SMPTE_Color_Bars.svg.png" alt="test card" ><!--you can add width and height-->
+        <p class="parts">part 1 of 2 part class</p>
+        <p class="parts">part 2</p>
+        <a href="Google.com">Click here for Google<br></a>
+        <a target="_blank" href="Google.com">Click here for Google in a new tab<br></a>
+        <table>
+            <thead>
+            <tr>
+                <th>this is a table</th>
+                <th>2</th>
+            </tr>
+            </thead>
+            <tbody>
+                <th>row 1</th>
+                <th>row 2</th>
+            </tbody>
+        </table>
+        <p id="giant">HUGE</p>
+        <a href="#header">top</a>
+        <p id="font">this is another font and the music is to annoy you</p>
+        <audio controls="" autoplay="" loop=""> <source src="http://www.angelfire.com/super/badwebs/annoying-music.mp3" type="audio/mpeg"> Your browser does not support the audio element. <br> <br> <br>
     </body>
 </html>
