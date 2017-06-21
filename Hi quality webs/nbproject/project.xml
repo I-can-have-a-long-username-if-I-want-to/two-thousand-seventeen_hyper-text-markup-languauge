@@ -7,6 +7,9 @@
         </data>
         <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
             <word>Google</word>
+            <word>Ipsum</word>
+            <word>Ispum</word>
+            <word>Lorem</word>
         </spellchecker-wordlist>
     </configuration>
 </project>
