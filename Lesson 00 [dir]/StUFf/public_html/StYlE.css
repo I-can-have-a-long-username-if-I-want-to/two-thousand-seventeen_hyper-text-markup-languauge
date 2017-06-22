@@ -8,17 +8,22 @@ and open the template in the editor.
     Author     : EricX
 */
 .one{
-    
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 600px
 }
 .two{
-    
+    text-align: center;
+    background-color: white
 }
 #one{
-    
+    color: tan
 }
 #two{
-    
+    color: tomato
 }
 body{
-    background-image:;
+    background-color:#e9ff00 ;
+}
+h1{
+    color: thistle
 }
