@@ -7,23 +7,4 @@ and open the template in the editor.
     Created on : Jun 22, 2017, 1:16:47 PM
     Author     : EricX
 */
-.one{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 600px
-}
-.two{
-    text-align: center;
-    background-color: white
-}
-#one{
-    color: tan
-}
-#two{
-    color: tomato
-}
-body{
-    background-color:#e9ff00 ;
-}
-h1{
-    color: thistle
-}
+.one{font-family: "Comic Sans MS", cursive, sans-serif;font-size: 600px;}.two{text-align: center;background-color: white;}#one{color: tan;}#two{color: tomato;}body{background-color:#e9ff00 ;}h1{color: thistle}
