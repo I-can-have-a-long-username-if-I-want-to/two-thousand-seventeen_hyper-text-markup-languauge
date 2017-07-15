@@ -35,3 +35,19 @@ var object = {
 function Unix_time(){
     alert(Unix_time.name)
 }
+function functionReset(){
+    alert("test2");
+    //document.getElementById("form1").reset();
+}
+function gv(){
+    var form = document.getElementById("form1");
+    var text = "";
+    if (form.elements[0].value || form.elements[1].value){
+        for (var i = 0; i < form.length - 1; i++){
+            text += form.elements[i].value + " ";
+        }
+    } else {
+        text += "Enter Something...";
+    }
+    document.getElementById("d").innerHTML = text;
+}
