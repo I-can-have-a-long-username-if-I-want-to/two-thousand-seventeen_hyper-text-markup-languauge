@@ -33,7 +33,7 @@ var object = {
     name:"Unix_time", dob:"Jan 1, 1970", vehicle="wires, radio, and light"
 }
 function Unix_time(){
-    alert(Unix_time.name)
+    alert(Unix_time.name);
 }
 function functionReset(){
     alert("test2");
